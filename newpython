@@ -1,0 +1,9 @@
+# hello.py - Ein einfaches Skript für GitHub Branching & Merging
+
+def greet(name):
+    """Gibt eine Begrüßung für den angegebenen Namen aus."""
+    return f"Hallo, {name}! Willkommen in deinem neuen Branch."
+
+if __name__ == "__main__":
+    user_name = input("Gib deinen Namen ein: ")
+    print(greet(user_name))
